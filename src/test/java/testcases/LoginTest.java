@@ -36,6 +36,7 @@ public class LoginTest extends BaseClass {
 
         System.out.println("Print hello");
         System.out.println("Print hello2");
+        System.out.println("Print hello3");
         
         LoginPage lp = new LoginPage(driver);
         lp.login(dataMap.get("email"), dataMap.get("password"));
