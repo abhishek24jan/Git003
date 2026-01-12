@@ -1,0 +1,441 @@
+2025-12-01 22:43:13 INFO  utils.TestListener - Test Suite started
+2025-12-01 22:43:14 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2025-12-01 22:43:26 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2025-12-01 22:43:26 INFO  testcases.LoginTest - Running test for: fake@test.com
+2025-12-01 22:43:39 ERROR testcases.LoginTest - Test threw exception: Error communicating with the remote browser. It may have died.
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b77c21620e604e1e966ba9d916a99c9, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\NIPUNR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54303}, goog:processID: 5040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54303/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b77c21620e604e1e966ba9d916a99c9
+2025-12-01 22:43:39 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2025-12-01 22:43:39 INFO  base.BaseClass - Closing browser
+2025-12-01 22:43:39 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2025-12-01 22:43:43 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2025-12-01 22:43:43 INFO  testcases.LoginTest - Running test for: fake@test.com
+2025-12-01 22:43:48 ERROR testcases.LoginTest - Test threw exception: Error communicating with the remote browser. It may have died.
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d27649a72591ef26b5c610c658156995, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\NIPUNR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60251}, goog:processID: 9424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60251/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d27649a72591ef26b5c610c658156995
+2025-12-01 22:43:48 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2025-12-01 22:43:48 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2025-12-01 22:43:49 INFO  utils.TestListener - Test Suite finished
+2026-01-01 15:26:43 INFO  utils.TestListener - Test Suite started
+2026-01-01 15:26:45 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-01 15:26:59 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-01 15:26:59 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-01 15:27:41 ERROR testcases.LoginTest - Test threw exception: no such element: Unable to locate element: {"method":"css selector","selector":"div._9ay7"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a1ca624e9d6c2fe086c8ff2ff9816f0, findElement {value=div._9ay7, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55085}, goog:processID: 14592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55085/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a1ca624e9d6c2fe086c8ff2ff9816f0
+2026-01-01 15:27:41 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-01 15:27:41 INFO  base.BaseClass - Closing browser
+2026-01-01 15:27:41 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-01 15:28:14 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-01 15:28:14 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-01 15:28:24 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-01 15:28:24 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-01 15:28:24 INFO  base.BaseClass - Closing browser
+2026-01-01 15:28:24 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-01 15:29:04 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-01 15:29:04 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-01 15:29:50 INFO  testcases.LoginTest - Captured error message: The password that you've entered is incorrect.
+Forgotten password?
+2026-01-01 15:29:50 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-01 15:29:50 INFO  base.BaseClass - Closing browser
+2026-01-01 15:29:50 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-01 15:31:31 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-01 15:31:31 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-01 15:31:41 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-01 15:31:41 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-01 15:31:41 INFO  base.BaseClass - Closing browser
+2026-01-01 15:31:41 INFO  utils.TestListener - Test Suite finished
+2026-01-01 15:44:39 INFO  utils.TestListener - Test Suite started
+2026-01-01 15:44:41 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-01 15:45:20 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-01 15:45:20 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-01 15:45:20 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-01 15:45:20 INFO  base.BaseClass - Closing browser
+2026-01-01 15:45:20 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-01 15:45:23 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-01 15:45:23 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-01 15:45:23 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-01 15:45:23 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-01 15:45:24 INFO  utils.TestListener - Test Suite finished
+2026-01-05 08:39:03 INFO  utils.TestListener - Test Suite started
+2026-01-05 08:39:04 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-05 08:39:08 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-05 08:39:08 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-05 08:39:21 ERROR testcases.LoginTest - Test threw exception: no such element: Unable to locate element: {"method":"css selector","selector":"div._9ay7"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc52512feb78d0fff6be973de5d72608, findElement {value=div._9ay7, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49797}, goog:processID: 2428, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49797/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc52512feb78d0fff6be973de5d72608
+2026-01-05 08:39:21 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-05 08:39:21 INFO  base.BaseClass - Closing browser
+2026-01-05 08:39:21 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-05 08:39:23 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-05 08:39:23 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-05 08:39:36 ERROR testcases.LoginTest - Test threw exception: no such element: Unable to locate element: {"method":"css selector","selector":"div._9ay7"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e7e32460554362c042692eb43f72c45, findElement {value=div._9ay7, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49827}, goog:processID: 9116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49827/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e7e32460554362c042692eb43f72c45
+2026-01-05 08:39:36 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-05 08:39:36 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-05 08:39:36 INFO  base.BaseClass - Closing browser
+2026-01-05 08:39:36 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-05 08:39:38 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-05 08:39:38 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-05 08:39:42 INFO  testcases.LoginTest - Captured error message: The password that you've entered is incorrect.
+Forgotten password?
+2026-01-05 08:39:42 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-05 08:39:42 INFO  base.BaseClass - Closing browser
+2026-01-05 08:39:43 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-05 08:39:45 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-05 08:39:45 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-05 08:39:50 INFO  testcases.LoginTest - Captured error message: The password that you've entered is incorrect.
+Forgotten password?
+2026-01-05 08:39:50 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-05 08:39:50 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-05 08:39:50 INFO  base.BaseClass - Closing browser
+2026-01-05 08:39:50 INFO  utils.TestListener - Test Suite finished
+2026-01-05 11:01:00 INFO  utils.TestListener - Test Suite started
+2026-01-05 11:01:01 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-05 11:01:04 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-05 11:01:04 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-05 11:01:16 ERROR testcases.LoginTest - Test threw exception: no such element: Unable to locate element: {"method":"css selector","selector":"div._9ay7"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5f238e3c1a5b9e631b001826f5e92b6, findElement {using=css selector, value=div._9ay7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52377}, goog:processID: 4648, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52377/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5f238e3c1a5b9e631b001826f5e92b6
+2026-01-05 11:01:16 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-05 11:01:16 INFO  base.BaseClass - Closing browser
+2026-01-05 11:01:16 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-05 11:01:18 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-05 11:01:18 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-05 11:01:31 ERROR testcases.LoginTest - Test threw exception: no such element: Unable to locate element: {"method":"css selector","selector":"div._9ay7"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9f2d724f6116b52282b4a21ec55c358, findElement {using=css selector, value=div._9ay7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52406}, goog:processID: 6412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52406/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9f2d724f6116b52282b4a21ec55c358
+2026-01-05 11:01:31 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-05 11:01:32 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-05 11:01:32 INFO  base.BaseClass - Closing browser
+2026-01-05 11:01:32 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-05 11:01:34 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-05 11:01:34 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-05 11:01:39 INFO  testcases.LoginTest - Captured error message: The password that you've entered is incorrect.
+Forgotten password?
+2026-01-05 11:01:39 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-05 11:01:39 INFO  base.BaseClass - Closing browser
+2026-01-05 11:01:39 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-05 11:01:41 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-05 11:01:41 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-05 11:01:46 INFO  testcases.LoginTest - Captured error message: The password that you've entered is incorrect.
+Forgotten password?
+2026-01-05 11:01:46 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-05 11:01:46 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-05 11:01:46 INFO  base.BaseClass - Closing browser
+2026-01-05 11:01:46 INFO  utils.TestListener - Test Suite finished
+2026-01-07 11:01:22 INFO  utils.TestListener - Test Suite started
+2026-01-07 11:01:23 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 11:01:29 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 11:01:29 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 11:01:41 ERROR testcases.LoginTest - Test threw exception: no such element: Unable to locate element: {"method":"css selector","selector":"div._9ay7"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ee150425ec76104f787aacc2073b7b2, findElement {using=css selector, value=div._9ay7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61840}, goog:processID: 7740, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61840/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ee150425ec76104f787aacc2073b7b2
+2026-01-07 11:01:41 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-07 11:01:41 INFO  base.BaseClass - Closing browser
+2026-01-07 11:01:42 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 11:01:44 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 11:01:44 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 11:01:57 ERROR testcases.LoginTest - Test threw exception: no such element: Unable to locate element: {"method":"css selector","selector":"div._9ay7"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [471929cd10e7d0978e6f7d6e5ec5fe9f, findElement {using=css selector, value=div._9ay7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61871}, goog:processID: 18172, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61871/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 471929cd10e7d0978e6f7d6e5ec5fe9f
+2026-01-07 11:01:57 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-07 11:01:57 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-07 11:01:57 INFO  base.BaseClass - Closing browser
+2026-01-07 11:01:57 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 11:01:59 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 11:01:59 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-07 11:02:06 INFO  testcases.LoginTest - Captured error message: The password that you've entered is incorrect.
+Forgotten password?
+2026-01-07 11:02:06 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-07 11:02:06 INFO  base.BaseClass - Closing browser
+2026-01-07 11:02:06 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 11:02:08 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 11:02:08 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-07 11:02:13 INFO  testcases.LoginTest - Captured error message: The password that you've entered is incorrect.
+Forgotten password?
+2026-01-07 11:02:13 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-07 11:02:13 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-07 11:02:13 INFO  base.BaseClass - Closing browser
+2026-01-07 11:02:14 INFO  utils.TestListener - Test Suite finished
+2026-01-07 11:59:50 INFO  utils.TestListener - Test Suite started
+2026-01-07 11:59:51 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 11:59:54 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 11:59:54 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 12:00:07 ERROR testcases.LoginTest - Test threw exception: no such element: Unable to locate element: {"method":"css selector","selector":"div._9ay7"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2baeca6d1e6fc95e7c67016ce5540e4c, findElement {value=div._9ay7, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62538}, goog:processID: 2032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62538/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2baeca6d1e6fc95e7c67016ce5540e4c
+2026-01-07 12:00:07 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-07 12:00:07 INFO  base.BaseClass - Closing browser
+2026-01-07 12:00:07 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 12:00:09 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:00:09 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 12:00:21 ERROR testcases.LoginTest - Test threw exception: no such element: Unable to locate element: {"method":"css selector","selector":"div._9ay7"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9e2f946a53b31399d9082214295e449, findElement {value=div._9ay7, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62574}, goog:processID: 9728, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62574/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a9e2f946a53b31399d9082214295e449
+2026-01-07 12:00:21 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-07 12:00:21 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-07 12:00:21 INFO  base.BaseClass - Closing browser
+2026-01-07 12:00:22 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 12:00:23 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:00:23 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-07 12:00:28 INFO  testcases.LoginTest - Captured error message: The password that you've entered is incorrect.
+Forgotten password?
+2026-01-07 12:00:28 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-07 12:00:28 INFO  base.BaseClass - Closing browser
+2026-01-07 12:00:28 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 12:00:30 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:00:30 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-07 12:00:36 INFO  testcases.LoginTest - Captured error message: The password that you've entered is incorrect.
+Forgotten password?
+2026-01-07 12:00:36 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-07 12:00:36 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-07 12:00:36 INFO  base.BaseClass - Closing browser
+2026-01-07 12:00:36 INFO  utils.TestListener - Test Suite finished
+2026-01-07 12:08:38 INFO  utils.TestListener - Test Suite started
+2026-01-07 12:08:39 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 12:08:44 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:08:44 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 12:09:02 INFO  testcases.LoginTest - Captured error message: 
+2026-01-07 12:09:02 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-07 12:09:02 INFO  base.BaseClass - Closing browser
+2026-01-07 12:09:03 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 12:09:05 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:09:05 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 12:09:31 INFO  testcases.LoginTest - Captured error message: 
+2026-01-07 12:09:31 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-07 12:09:31 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-07 12:09:31 INFO  base.BaseClass - Closing browser
+2026-01-07 12:09:32 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 12:09:34 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:09:34 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-07 12:09:35 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-07 12:09:35 INFO  base.BaseClass - Closing browser
+2026-01-07 12:09:35 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 12:09:37 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:09:37 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-07 12:09:37 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-07 12:09:38 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-07 12:09:38 INFO  utils.TestListener - Test Suite finished
+2026-01-07 12:10:14 INFO  utils.TestListener - Test Suite started
+2026-01-07 12:10:14 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 12:10:17 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:10:17 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 12:10:24 INFO  testcases.LoginTest - Captured error message: 
+2026-01-07 12:10:24 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-07 12:10:24 INFO  base.BaseClass - Closing browser
+2026-01-07 12:10:24 INFO  base.BaseClass - Starting browser and navigating to Facebook login page
+2026-01-07 12:10:26 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:10:26 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 12:10:26 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-07 12:10:26 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-07 12:10:27 INFO  utils.TestListener - Test Suite finished
+2026-01-07 12:18:29 INFO  utils.TestListener - Test Suite started
+2026-01-07 12:18:30 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 12:18:34 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:18:34 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 12:18:35 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-07 12:18:35 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-07 12:18:35 INFO  base.BaseClass - Closing browser
+2026-01-07 12:18:36 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 12:18:37 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:18:37 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 12:18:41 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-07 12:18:41 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-07 12:18:41 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-07 12:18:41 INFO  base.BaseClass - Closing browser
+2026-01-07 12:18:42 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 12:18:46 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:18:46 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-07 12:18:46 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-07 12:18:46 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-07 12:18:46 INFO  base.BaseClass - Closing browser
+2026-01-07 12:18:47 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 12:18:51 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:18:51 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-07 12:18:51 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-07 12:18:51 ERROR utils.TestListener - Test failed: verifyInvalidLogin
+2026-01-07 12:18:52 ERROR utils.TestListener - Screenshot capture failed: .\screenshots\verifyInvalidLogin.png (The system cannot find the path specified)
+2026-01-07 12:18:52 INFO  base.BaseClass - Closing browser
+2026-01-07 12:18:53 INFO  utils.TestListener - Test Suite finished
+2026-01-07 12:21:15 INFO  utils.TestListener - Test Suite started
+2026-01-07 12:21:16 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 12:21:21 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:21:21 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 12:21:22 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-07 12:21:22 INFO  testcases.LoginTest - Test passed for: fake@test.com
+2026-01-07 12:21:22 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-07 12:21:22 INFO  base.BaseClass - Closing browser
+2026-01-07 12:21:22 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 12:21:24 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:21:24 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-07 12:21:27 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-07 12:21:27 INFO  testcases.LoginTest - Test passed for: abc@xyz.com
+2026-01-07 12:21:27 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-07 12:21:27 INFO  base.BaseClass - Closing browser
+2026-01-07 12:21:28 INFO  utils.TestListener - Test Suite finished
+2026-01-07 12:27:08 INFO  utils.TestListener - Test Suite started
+2026-01-07 12:27:09 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 12:27:14 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:27:14 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 12:27:14 INFO  testcases.LoginTest - Captured error message: 
+2026-01-07 12:27:14 WARN  utils.TestListener - Test skipped: verifyInvalidLogin
+2026-01-07 12:27:14 INFO  base.BaseClass - Closing browser
+2026-01-07 12:27:15 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 12:27:19 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:27:19 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 12:27:19 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-07 12:27:19 INFO  testcases.LoginTest - Test passed for: fake@test.com
+2026-01-07 12:27:19 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-07 12:27:19 INFO  base.BaseClass - Closing browser
+2026-01-07 12:27:20 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 12:27:23 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 12:27:23 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-07 12:27:24 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-07 12:27:24 INFO  testcases.LoginTest - Test passed for: abc@xyz.com
+2026-01-07 12:27:24 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-07 12:27:24 INFO  base.BaseClass - Closing browser
+2026-01-07 12:27:24 INFO  utils.TestListener - Test Suite finished
+2026-01-07 15:06:56 INFO  utils.TestListener - Test Suite started
+2026-01-07 15:06:57 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 15:07:00 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 15:07:00 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 15:07:03 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-07 15:07:03 INFO  testcases.LoginTest - Test passed for: fake@test.com
+2026-01-07 15:07:03 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-07 15:07:03 INFO  base.BaseClass - Closing browser
+2026-01-07 15:07:04 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 15:07:05 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 15:07:05 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-07 15:07:08 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-07 15:07:08 INFO  testcases.LoginTest - Test passed for: abc@xyz.com
+2026-01-07 15:07:08 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-07 15:07:08 INFO  base.BaseClass - Closing browser
+2026-01-07 15:07:09 INFO  utils.TestListener - Test Suite finished
+2026-01-07 15:12:54 INFO  utils.TestListener - Test Suite started
+2026-01-07 15:12:55 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 15:13:00 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 15:13:00 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-07 15:13:01 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-07 15:13:01 INFO  testcases.LoginTest - Test passed for: fake@test.com
+2026-01-07 15:13:01 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-07 15:13:01 INFO  base.BaseClass - Closing browser
+2026-01-07 15:13:01 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-07 15:13:05 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-07 15:13:05 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-07 15:13:05 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-07 15:13:05 INFO  testcases.LoginTest - Test passed for: abc@xyz.com
+2026-01-07 15:13:05 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-07 15:13:05 INFO  base.BaseClass - Closing browser
+2026-01-07 15:13:06 INFO  utils.TestListener - Test Suite finished
+2026-01-09 10:56:51 INFO  utils.TestListener - Test Suite started
+2026-01-09 10:56:52 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-09 10:57:03 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-09 10:57:03 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-09 10:57:04 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-09 10:57:04 INFO  testcases.LoginTest - Test passed for: fake@test.com
+2026-01-09 10:57:04 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-09 10:57:04 INFO  base.BaseClass - Closing browser
+2026-01-09 10:57:04 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-09 10:57:09 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-09 10:57:09 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-09 10:57:10 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-09 10:57:10 INFO  testcases.LoginTest - Test passed for: abc@xyz.com
+2026-01-09 10:57:10 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-09 10:57:10 INFO  base.BaseClass - Closing browser
+2026-01-09 10:57:11 INFO  utils.TestListener - Test Suite finished
+2026-01-12 16:34:18 INFO  utils.TestListener - Test Suite started
+2026-01-12 16:34:20 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-12 16:34:30 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-12 16:34:30 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-12 16:34:31 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-12 16:34:31 INFO  testcases.LoginTest - Test passed for: fake@test.com
+2026-01-12 16:34:31 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-12 16:34:31 INFO  base.BaseClass - Closing browser
+2026-01-12 16:34:32 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-12 16:34:37 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-12 16:34:37 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-12 16:34:37 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-12 16:34:37 INFO  testcases.LoginTest - Test passed for: abc@xyz.com
+2026-01-12 16:34:37 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-12 16:34:37 INFO  base.BaseClass - Closing browser
+2026-01-12 16:34:39 INFO  utils.TestListener - Test Suite finished
+2026-01-12 17:19:42 INFO  utils.TestListener - Test Suite started
+2026-01-12 17:19:43 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-12 17:19:47 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-12 17:19:47 INFO  testcases.LoginTest - Running test for: fake@test.com
+2026-01-12 17:19:52 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-12 17:19:52 INFO  testcases.LoginTest - Test passed for: fake@test.com
+2026-01-12 17:19:52 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-12 17:19:52 INFO  base.BaseClass - Closing browser
+2026-01-12 17:19:52 INFO  base.BaseClass - Starting browser and navigating to  login page
+2026-01-12 17:19:57 INFO  utils.TestListener - Starting test: verifyInvalidLogin
+2026-01-12 17:19:57 INFO  testcases.LoginTest - Running test for: abc@xyz.com
+2026-01-12 17:19:58 INFO  testcases.LoginTest - Captured error message: Incorrect email or password.
+2026-01-12 17:19:58 INFO  testcases.LoginTest - Test passed for: abc@xyz.com
+2026-01-12 17:19:58 INFO  utils.TestListener - Test passed: verifyInvalidLogin
+2026-01-12 17:19:58 INFO  base.BaseClass - Closing browser
+2026-01-12 17:19:59 INFO  utils.TestListener - Test Suite finished
